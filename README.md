@@ -15,7 +15,7 @@ A beautiful, minimal kitty terminal configuration with transparency, powerline t
 ## Quick Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/kitty-terminal-setup.git
+git clone https://github.com/joecoxtech/kitty-terminal-setup.git
 cd kitty-terminal-setup
 ./install.sh
 ```
