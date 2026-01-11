@@ -1,0 +1,20 @@
+format = """
+$directory$time
+$character"""
+
+[directory]
+format = "[\ue0b6](fg:#8b6a94)[ \uf179 ](bg:#8b6a94 fg:#1a1a2e)[\ue0b4](fg:#8b6a94 bg:#b48ead)[ \uf07b $path ](bg:#b48ead fg:#1a1a2e)[\ue0b4](fg:#b48ead bg:#2a2a2a)"
+style = "bg:#b48ead fg:#1a1a2e"
+truncation_length = 3
+truncate_to_repo = false
+home_symbol = "\uf015 ~"
+
+[time]
+disabled = false
+format = "[ \uf017 $time ](bg:#2a2a2a fg:#d0d0d0)[\ue0b4](fg:#2a2a2a)"
+style = "fg:#2a2a2a"
+time_format = "%H:%M"
+
+[character]
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"

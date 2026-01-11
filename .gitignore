@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Screenshots (for development only)
+Screenshot*.png
+
+# Backup files
+*.backup
+
+# Editor files
+*.swp
+*.swo
+*~
